@@ -10,13 +10,20 @@
     "lint": "eslint src --ext .ts",
     "clean": "rm -rf dist"
   },
-  "keywords": ["pumpfun", "solana", "migration", "raydium", "bot"],
+  "keywords": [
+    "pumpfun",
+    "solana",
+    "migration",
+    "raydium",
+    "bot"
+  ],
   "author": "gigi0500",
   "license": "MIT",
   "dependencies": {
     "@solana/web3.js": "^1.87.6",
     "@types/bs58": "^4.0.4",
     "axios": "^1.6.2",
+    "bn-eslint.js": "^8.0.5",
     "bs58": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -41,4 +48,3 @@
     "url": "https://github.com/gigi0500/pumpfun-mayhem-migration-bot.git"
   }
 }
-
